@@ -104,7 +104,6 @@ class Student:
         print(f"Status: {'Passed' if Student.pass_fail_determination(student) else 'Failed'}")
         print(f"Percentage: {Student.percentage(student)}%")
 
-
     def search(name):
         for student in read_json_file('students.json'):
             if student['name'].lower() == name.lower():
@@ -119,10 +118,6 @@ class Student:
     def percentage(student):
         total_marks = sum(subject['marks'] for subject in student['subjects'])
         return (total_marks / (len(student['subjects']) * 100)) * 100
-
-    
-
-
 
 
 
