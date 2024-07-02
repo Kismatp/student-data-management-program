@@ -1,2 +1,3 @@
 
 {"name": "kismat", "roll_number": "22", "email": "ksiad@gmail.com", "phone_number": "1234567890", "subjects": [{"subject": "science", "marks": 40.0}, {"subject": "math", "marks": 90.0}, {"subject": "nepali", "marks": 80.0}], "address": "chtwn"}
+{"name": "deepa", "roll_number": "13", "email": "sah@ha", "phone_number": "0987653421", "subjects": [{"subject": "Science", "marks": 67.0}, {"subject": "asgd", "marks": 98.0}, {"subject": "gd", "marks": 67.0}], "address": "aas"}
